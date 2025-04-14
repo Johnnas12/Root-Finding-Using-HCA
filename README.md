@@ -57,3 +57,27 @@ Flexible and intuitive, but may get stuck in local minima for complex functions.
 
 Works well when provided a good initial guess.
  
+## 🛠 Installation & Usage
+### 1 **Clone the Repository**
+```sh
+git clone https://github.com/johnnas12/Root-Finding-Using-HCA.git
+cd Root-Finding-Using-HCA
+```
+
+### 2️ **Create a Virtual Environment** (Recommended)
+```sh
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3️ **Install Dependencies**
+```sh
+pip install -r requirements.txt
+```
+### 4 ** Run Files **
+```
+python root_finding_using_bisection.py  # for the bisection method
+```
+```
+python root_finding_using_hca.py # for the Hill climbing algorithm method
+```
